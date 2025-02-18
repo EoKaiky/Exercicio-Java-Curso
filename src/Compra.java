@@ -19,4 +19,8 @@ public class Compra {
         return "Compra: descricao = " + descricao +
                 " valor = " + valor;
     }
+
+    public int compareTo(Compra outraCompra) {
+        return Double.valueOf(this.valor).compareTo(Double.valueOf(outraCompra.valor));
+    }
 }

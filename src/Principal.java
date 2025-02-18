@@ -19,7 +19,7 @@ public class Principal {
             boolean compraRealizada = cartao .lancaCompra(compra);
 
             if(compraRealizada) {
-                System.out.println("Copra realizada!");
+                System.out.println("Compra realizada!");
                 System.out.println("Digite 0 para sair ou 1 para continuar");
                 sair = leitura.nextInt();
             } else {
